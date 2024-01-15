@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT License"
+issueTrackerURL = "https://github.com/Mrthomas20121-Mods/NaturesConstruct/issues"
+
+[[mods]]
+modId = "natures_construct"
+version = "0.0.1"
+displayName = "Nature's Construct"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/natures_construct"
+authors = "Mrthomas20121"
+description = '''
+Add Tinkers Compat to Blue Skies
+'''
+
+[[dependencies.natures_construct]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.natures_construct]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.natures_construct]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.5.1.31,)"
+    ordering="NONE"
+    side="BOTH"
